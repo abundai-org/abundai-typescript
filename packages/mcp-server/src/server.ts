@@ -57,7 +57,7 @@ export const newMcpServer = async () =>
   new McpServer(
     {
       name: 'abundai_api',
-      version: '0.0.2',
+      version: '0.0.3',
     },
     {
       instructions: await getInstructions(),
