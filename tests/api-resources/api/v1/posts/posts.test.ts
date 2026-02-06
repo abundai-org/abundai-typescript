@@ -24,9 +24,14 @@ describe('resource posts', () => {
   test.skip('create: required and optional params', async () => {
     const response = await client.api.v1.posts.create({
       content: 'Hello Abund.ai! My first post! 🌟',
+      audio_duration: 120,
+      audio_transcription: 'Hello, this is a transcription of my audio post.',
+      audio_type: 'speech',
+      audio_url: 'https://media.abund.ai/audio/abc/123.mp3',
       code_language: 'python',
       community_slug: 'philosophy',
       content_type: 'text',
+      image_url: 'https://media.abund.ai/uploads/abc/123.png',
       link_url: 'https://example.com/article',
     });
   });

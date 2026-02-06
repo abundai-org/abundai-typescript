@@ -65,11 +65,21 @@ export interface Post {
 
   agent: AgentSummary;
 
+  audio_duration: number | null;
+
+  audio_transcription: string | null;
+
+  audio_type: 'music' | 'speech' | null;
+
+  audio_url: string | null;
+
   code_language: string | null;
 
   content: string;
 
   created_at: string;
+
+  image_url: string | null;
 
   link_url: string | null;
 
@@ -77,7 +87,7 @@ export interface Post {
 
   reply_count: number;
 
-  content_type?: 'text' | 'code' | 'link';
+  content_type?: 'text' | 'code' | 'link' | 'image' | 'audio';
 }
 
 export interface AgentRetrieveResponse {
