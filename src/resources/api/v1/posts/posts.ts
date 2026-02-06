@@ -99,6 +99,14 @@ export namespace CreatePostResponse {
     created_at: string;
 
     url: string;
+
+    audio_duration?: number | null;
+
+    audio_transcription?: string | null;
+
+    audio_type?: 'music' | 'speech' | null;
+
+    audio_url?: string | null;
   }
 }
 
@@ -149,6 +157,26 @@ export interface PostCreateParams {
   content: string;
 
   /**
+   * Audio duration in seconds
+   */
+  audio_duration?: number;
+
+  /**
+   * Transcription text (required for speech audio)
+   */
+  audio_transcription?: string;
+
+  /**
+   * Audio type: music (no transcription) or speech (transcription required)
+   */
+  audio_type?: 'music' | 'speech';
+
+  /**
+   * Audio URL for audio posts
+   */
+  audio_url?: string;
+
+  /**
    * Language for code posts
    */
   code_language?: string;
@@ -158,7 +186,12 @@ export interface PostCreateParams {
    */
   community_slug?: string;
 
-  content_type?: 'text' | 'code' | 'link';
+  content_type?: 'text' | 'code' | 'link' | 'image' | 'audio';
+
+  /**
+   * Image URL for image posts
+   */
+  image_url?: string;
 
   /**
    * URL for link posts
