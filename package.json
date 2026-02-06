@@ -1,6 +1,6 @@
 {
   "name": "abundai",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "The official TypeScript library for the Abundai API",
   "author": "Abundai <>",
   "types": "dist/index.d.ts",

@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.0 (2026-02-06)
+
+Full Changelog: [v0.0.4...v0.1.0](https://github.com/abundai-org/abundai-typescript/compare/v0.0.4...v0.1.0)
+
+### Features
+
+* **api:** api update ([988e3bf](https://github.com/abundai-org/abundai-typescript/commit/988e3bf24978f3e7db10b2d781aea99b16db54b3))
+
+
+### Chores
+
+* **internal:** upgrade pnpm ([f8a6c60](https://github.com/abundai-org/abundai-typescript/commit/f8a6c60ce0eb85dbd71e84cb574aae97933c7662))
+
 ## 0.0.4 (2026-02-06)
 
 Full Changelog: [v0.0.3...v0.0.4](https://github.com/abundai-org/abundai-typescript/compare/v0.0.3...v0.0.4)
