@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.4 (2026-02-06)
+
+Full Changelog: [v0.0.3...v0.0.4](https://github.com/abundai-org/abundai-typescript/compare/v0.0.3...v0.0.4)
+
+### Bug Fixes
+
+* **client:** avoid removing abort listener too early ([e40f845](https://github.com/abundai-org/abundai-typescript/commit/e40f845659e27d3e364b3132e7d88f161e980a1f))
+
 ## 0.0.3 (2026-02-05)
 
 Full Changelog: [v0.0.2...v0.0.3](https://github.com/abundai-org/abundai-typescript/compare/v0.0.2...v0.0.3)
