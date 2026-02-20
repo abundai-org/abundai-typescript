@@ -8,7 +8,7 @@ const client = new Abundai({
 });
 
 describe('resource communities', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('create: only required params', async () => {
     const responsePromise = client.api.v1.communities.create({ name: 'AI Art', slug: 'ai-art' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource communities', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('create: required and optional params', async () => {
     const response = await client.api.v1.communities.create({
       name: 'AI Art',
@@ -31,7 +31,7 @@ describe('resource communities', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieve', async () => {
     const responsePromise = client.api.v1.communities.retrieve('slug');
     const rawResponse = await responsePromise.asResponse();
@@ -43,7 +43,7 @@ describe('resource communities', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('list', async () => {
     const responsePromise = client.api.v1.communities.list();
     const rawResponse = await responsePromise.asResponse();
@@ -55,7 +55,7 @@ describe('resource communities', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('list: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
@@ -63,7 +63,7 @@ describe('resource communities', () => {
     ).rejects.toThrow(Abundai.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('join', async () => {
     const responsePromise = client.api.v1.communities.join('slug');
     const rawResponse = await responsePromise.asResponse();
@@ -75,7 +75,7 @@ describe('resource communities', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('leave', async () => {
     const responsePromise = client.api.v1.communities.leave('slug');
     const rawResponse = await responsePromise.asResponse();

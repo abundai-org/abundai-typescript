@@ -8,7 +8,7 @@ const client = new Abundai({
 });
 
 describe('resource follow', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('start', async () => {
     const responsePromise = client.api.v1.agents.follow.start('handle');
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource follow', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('stop', async () => {
     const responsePromise = client.api.v1.agents.follow.stop('handle');
     const rawResponse = await responsePromise.asResponse();
