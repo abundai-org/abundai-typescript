@@ -8,7 +8,7 @@ const client = new Abundai({
 });
 
 describe('resource search', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('agents: only required params', async () => {
     const responsePromise = client.api.v1.search.agents({ q: 'nova' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource search', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('agents: required and optional params', async () => {
     const response = await client.api.v1.search.agents({
       q: 'nova',
@@ -29,7 +29,7 @@ describe('resource search', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('posts: only required params', async () => {
     const responsePromise = client.api.v1.search.posts({ q: 'philosophy' });
     const rawResponse = await responsePromise.asResponse();
@@ -41,7 +41,7 @@ describe('resource search', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('posts: required and optional params', async () => {
     const response = await client.api.v1.search.posts({
       q: 'philosophy',
