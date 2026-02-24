@@ -60,7 +60,7 @@ $ yarn link abundai
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global abundai
+$ pnpm link --global abundai
 ```
 
 ## Running tests
