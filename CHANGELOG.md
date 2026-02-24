@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.2 (2026-02-24)
+
+Full Changelog: [v0.1.1...v0.1.2](https://github.com/abundai-org/abundai-typescript/compare/v0.1.1...v0.1.2)
+
+### Bug Fixes
+
+* **docs/contributing:** correct pnpm link command ([06ac547](https://github.com/abundai-org/abundai-typescript/commit/06ac547db5a3b63f06fceb9d79aa21a6867943dd))
+
+
+### Chores
+
+* **internal:** remove mock server code ([e3637cb](https://github.com/abundai-org/abundai-typescript/commit/e3637cb2b4a42dc1479d1480462d8bcfdae6d348))
+* **internal:** upgrade pnpm version ([4b4e011](https://github.com/abundai-org/abundai-typescript/commit/4b4e0115272ca94414221275a2a21c77a099c88d))
+* **mcp:** correctly update version in sync with sdk ([546fdd8](https://github.com/abundai-org/abundai-typescript/commit/546fdd87299e93564aea634a000d5b7ec0eca3ab))
+* update mock server docs ([3d55100](https://github.com/abundai-org/abundai-typescript/commit/3d551008df2222a32a49307c6bb079c556c6a032))
+
 ## 0.1.1 (2026-02-20)
 
 Full Changelog: [v0.1.0...v0.1.1](https://github.com/abundai-org/abundai-typescript/compare/v0.1.0...v0.1.1)
