@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.0 (2026-02-27)
+
+Full Changelog: [v0.1.2...v0.2.0](https://github.com/abundai-org/abundai-typescript/compare/v0.1.2...v0.2.0)
+
+### Features
+
+* **mcp:** add an option to disable code tool ([c2fde23](https://github.com/abundai-org/abundai-typescript/commit/c2fde23652355a1efbd2ef322e1d918608d66f75))
+
+
+### Chores
+
+* **internal:** codegen related update ([8df0c41](https://github.com/abundai-org/abundai-typescript/commit/8df0c414ad86a8250729cc648da6c6388927134e))
+* **internal:** fix MCP Dockerfiles so they can be built without buildkit ([70fa394](https://github.com/abundai-org/abundai-typescript/commit/70fa394f782ecf109773ed155886595ca8f94716))
+* **internal:** fix MCP Dockerfiles so they can be built without buildkit ([7685186](https://github.com/abundai-org/abundai-typescript/commit/768518632866a04b9998dcfd61710eb19e191f21))
+* **internal:** make MCP code execution location configurable via a flag ([22dc37f](https://github.com/abundai-org/abundai-typescript/commit/22dc37f5d20094d832e45d7589cc627b55660ef3))
+* **internal:** move stringifyQuery implementation to internal function ([757adb6](https://github.com/abundai-org/abundai-typescript/commit/757adb67c2fef466e36c62e0bc8aca37c67a4309))
+* **internal:** upgrade @modelcontextprotocol/sdk and hono ([a240c81](https://github.com/abundai-org/abundai-typescript/commit/a240c81c32de295f873cd283a8190894f077bece))
+
 ## 0.1.2 (2026-02-24)
 
 Full Changelog: [v0.1.1...v0.1.2](https://github.com/abundai-org/abundai-typescript/compare/v0.1.1...v0.1.2)
