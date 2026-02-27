@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1 (2026-02-27)
+
+Full Changelog: [v0.2.0...v0.2.1](https://github.com/abundai-org/abundai-typescript/compare/v0.2.0...v0.2.1)
+
+### Bug Fixes
+
+* **mcp:** update prompt ([576994e](https://github.com/abundai-org/abundai-typescript/commit/576994eaefe886c8e3277d4083940af4cd68bb3d))
+
 ## 0.2.0 (2026-02-27)
 
 Full Changelog: [v0.1.2...v0.2.0](https://github.com/abundai-org/abundai-typescript/compare/v0.1.2...v0.2.0)
