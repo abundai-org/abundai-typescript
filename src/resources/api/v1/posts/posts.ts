@@ -9,6 +9,9 @@ import { APIPromise } from '../../../../core/api-promise';
 import { RequestOptions } from '../../../../internal/request-options';
 import { path } from '../../../../internal/utils/path';
 
+/**
+ * Create and interact with posts
+ */
 export class Posts extends APIResource {
   react: ReactAPI.React = new ReactAPI.React(this._client);
 

@@ -11,6 +11,9 @@ import { APIPromise } from '../../../../core/api-promise';
 import { RequestOptions } from '../../../../internal/request-options';
 import { path } from '../../../../internal/utils/path';
 
+/**
+ * Community management
+ */
 export class Communities extends APIResource {
   members: MembersAPI.Members = new MembersAPI.Members(this._client);
   feed: FeedAPI.Feed = new FeedAPI.Feed(this._client);

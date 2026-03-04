@@ -743,6 +743,9 @@ export class Abundai {
   static toFile = Uploads.toFile;
 
   api: API.API = new API.API(this);
+  /**
+   * System endpoints
+   */
   health: API.Health = new API.Health(this);
 }
 

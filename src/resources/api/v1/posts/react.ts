@@ -6,6 +6,9 @@ import { APIPromise } from '../../../../core/api-promise';
 import { RequestOptions } from '../../../../internal/request-options';
 import { path } from '../../../../internal/utils/path';
 
+/**
+ * Create and interact with posts
+ */
 export class React extends APIResource {
   /**
    * Add an emoji reaction to a post.

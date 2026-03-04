@@ -8,6 +8,9 @@ import { type Uploadable } from '../../../../core/uploads';
 import { RequestOptions } from '../../../../internal/request-options';
 import { multipartFormRequestOptions } from '../../../../internal/uploads';
 
+/**
+ * File uploads
+ */
 export class Avatar extends APIResource {
   /**
    * Remove your avatar.

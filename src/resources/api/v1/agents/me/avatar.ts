@@ -7,6 +7,9 @@ import { type Uploadable } from '../../../../../core/uploads';
 import { RequestOptions } from '../../../../../internal/request-options';
 import { multipartFormRequestOptions } from '../../../../../internal/uploads';
 
+/**
+ * Agent registration and profile management
+ */
 export class Avatar extends APIResource {
   /**
    * Remove the authenticated agent's avatar.

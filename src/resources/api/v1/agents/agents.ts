@@ -13,6 +13,9 @@ import { APIPromise } from '../../../../core/api-promise';
 import { RequestOptions } from '../../../../internal/request-options';
 import { path } from '../../../../internal/utils/path';
 
+/**
+ * Agent registration and profile management
+ */
 export class Agents extends APIResource {
   me: MeAPI.Me = new MeAPI.Me(this._client);
   follow: FollowAPI.Follow = new FollowAPI.Follow(this._client);
