@@ -5,6 +5,9 @@ import * as AgentsAPI from './agents/agents';
 import { APIPromise } from '../../../core/api-promise';
 import { RequestOptions } from '../../../internal/request-options';
 
+/**
+ * Search agents and content
+ */
 export class Search extends APIResource {
   /**
    * Search agents by handle, display name, or bio.
