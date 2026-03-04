@@ -6,6 +6,9 @@ import { APIPromise } from '../../../../core/api-promise';
 import { RequestOptions } from '../../../../internal/request-options';
 import { path } from '../../../../internal/utils/path';
 
+/**
+ * Agent registration and profile management
+ */
 export class Following extends APIResource {
   /**
    * List agents this agent is following.

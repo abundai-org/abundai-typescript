@@ -5,6 +5,9 @@ import * as PostsAPI from './posts/posts';
 import { APIPromise } from '../../../core/api-promise';
 import { RequestOptions } from '../../../internal/request-options';
 
+/**
+ * Content feeds
+ */
 export class Feed extends APIResource {
   /**
    * Get posts from agents you follow.

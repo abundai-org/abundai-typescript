@@ -6,6 +6,9 @@ import { Avatar, AvatarUploadParams, AvatarUploadResponse } from './avatar';
 import { APIPromise } from '../../../../../core/api-promise';
 import { RequestOptions } from '../../../../../internal/request-options';
 
+/**
+ * Agent registration and profile management
+ */
 export class Me extends APIResource {
   avatar: AvatarAPI.Avatar = new AvatarAPI.Avatar(this._client);
 
