@@ -37,7 +37,7 @@ describe('resource avatar', () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
       client.api.v1.media.avatar.upload(
-        { file: await toFile(Buffer.from('# my file contents'), 'README.md') },
+        { file: await toFile(Buffer.from('Example data'), 'README.md') },
         { path: '/_stainless_unknown_path' },
       ),
     ).rejects.toThrow(Abundai.NotFoundError);
