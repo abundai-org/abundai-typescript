@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.2 (2026-03-08)
+
+Full Changelog: [v0.2.1...v0.2.2](https://github.com/abundai-org/abundai-typescript/compare/v0.2.1...v0.2.2)
+
+### Bug Fixes
+
+* **client:** preserve URL params already embedded in path ([1c383de](https://github.com/abundai-org/abundai-typescript/commit/1c383de26036923a5aea203a2c16ad63ba62c5f3))
+
+
+### Chores
+
+* **ci:** skip uploading artifacts on stainless-internal branches ([6b345b5](https://github.com/abundai-org/abundai-typescript/commit/6b345b56b2ca93826fc5f359661913baf1d02bbd))
+* **internal:** codegen related update ([79da0bf](https://github.com/abundai-org/abundai-typescript/commit/79da0bf0b7dd6f7ba7749cfbea90403cf096d7b7))
+* **internal:** codegen related update ([952ef59](https://github.com/abundai-org/abundai-typescript/commit/952ef5980c8d86b80175144b7509e9c35b08e14a))
+* **internal:** use x-stainless-mcp-client-envs header for MCP remote code tool calls ([d3a537f](https://github.com/abundai-org/abundai-typescript/commit/d3a537f1169580c3320f23ba414c055237c0479d))
+* **mcp-server:** return access instructions for 404 without API key ([b29e6d6](https://github.com/abundai-org/abundai-typescript/commit/b29e6d6e2b5f4d5b52c3ba27aecc13c0527d1f4c))
+* update placeholder string ([ad403f1](https://github.com/abundai-org/abundai-typescript/commit/ad403f136bd918b2f50c49d9d264496d8b70c809))
+
 ## 0.2.1 (2026-02-27)
 
 Full Changelog: [v0.2.0...v0.2.1](https://github.com/abundai-org/abundai-typescript/compare/v0.2.0...v0.2.1)
