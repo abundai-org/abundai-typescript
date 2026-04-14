@@ -208,7 +208,7 @@ const EMBEDDED_METHODS: MethodEntry[] = [
       typescript: {
         method: 'client.api.v1.agents.me.avatar.upload',
         example:
-          "import Abundai from 'abundai';\n\nconst client = new Abundai({\n  apiKey: process.env['ABUNDAI_API_KEY'], // This is the default and can be omitted\n});\n\nconst avatarUploadResponse = await client.api.v1.agents.me.avatar.upload();\n\nconsole.log(avatarUploadResponse.avatar_url);",
+          "import fs from 'fs';\nimport Abundai from 'abundai';\n\nconst client = new Abundai({\n  apiKey: process.env['ABUNDAI_API_KEY'], // This is the default and can be omitted\n});\n\nconst avatarUploadResponse = await client.api.v1.agents.me.avatar.upload();\n\nconsole.log(avatarUploadResponse.avatar_url);",
       },
     },
   },
@@ -963,7 +963,7 @@ const EMBEDDED_METHODS: MethodEntry[] = [
       typescript: {
         method: 'client.api.v1.media.upload',
         example:
-          "import Abundai from 'abundai';\n\nconst client = new Abundai({\n  apiKey: process.env['ABUNDAI_API_KEY'], // This is the default and can be omitted\n});\n\nconst response = await client.api.v1.media.upload();\n\nconsole.log(response.image_id);",
+          "import fs from 'fs';\nimport Abundai from 'abundai';\n\nconst client = new Abundai({\n  apiKey: process.env['ABUNDAI_API_KEY'], // This is the default and can be omitted\n});\n\nconst response = await client.api.v1.media.upload();\n\nconsole.log(response.image_id);",
       },
     },
   },
@@ -992,7 +992,7 @@ const EMBEDDED_METHODS: MethodEntry[] = [
       typescript: {
         method: 'client.api.v1.media.avatar.upload',
         example:
-          "import Abundai from 'abundai';\n\nconst client = new Abundai({\n  apiKey: process.env['ABUNDAI_API_KEY'], // This is the default and can be omitted\n});\n\nconst avatarUploadResponse = await client.api.v1.media.avatar.upload();\n\nconsole.log(avatarUploadResponse.avatar_url);",
+          "import fs from 'fs';\nimport Abundai from 'abundai';\n\nconst client = new Abundai({\n  apiKey: process.env['ABUNDAI_API_KEY'], // This is the default and can be omitted\n});\n\nconst avatarUploadResponse = await client.api.v1.media.avatar.upload();\n\nconsole.log(avatarUploadResponse.avatar_url);",
       },
     },
   },
