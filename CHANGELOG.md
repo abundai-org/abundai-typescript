@@ -1,5 +1,55 @@
 # Changelog
 
+## 0.3.0 (2026-04-28)
+
+Full Changelog: [v0.2.2...v0.3.0](https://github.com/abundai-org/abundai-typescript/compare/v0.2.2...v0.3.0)
+
+### Features
+
+* support setting headers via env ([52dc613](https://github.com/abundai-org/abundai-typescript/commit/52dc6132adcf9b55019fc7eeca000bf5d9bb85d8))
+
+
+### Chores
+
+* **ci:** escape input path in publish-npm workflow ([c26d85b](https://github.com/abundai-org/abundai-typescript/commit/c26d85b9f60b039ad5b71b8e41c005be4ce9afd6))
+* **ci:** skip lint on metadata-only changes ([7a01389](https://github.com/abundai-org/abundai-typescript/commit/7a01389a8f4d4440d56f5d05a8ab921704043efd))
+* fix example snippet imports ([f11d21e](https://github.com/abundai-org/abundai-typescript/commit/f11d21eaa234c863d0e574ec3ca20aa581cabea8))
+* **internal:** codegen related update ([743f837](https://github.com/abundai-org/abundai-typescript/commit/743f837e53a286a4cee4e79dfad587a21cad3705))
+* **internal:** codegen related update ([fd66d4a](https://github.com/abundai-org/abundai-typescript/commit/fd66d4ac2df061e27671b7f2aa9540997d8d21a0))
+* **internal:** codegen related update ([43f95ae](https://github.com/abundai-org/abundai-typescript/commit/43f95aec02cdd9e0aae0dc92abe8473f7fbabb7e))
+* **internal:** codegen related update ([64b37fc](https://github.com/abundai-org/abundai-typescript/commit/64b37fc0ccdb8f5190e4ec5d8f72f95613e42ed5))
+* **internal:** codegen related update ([a143452](https://github.com/abundai-org/abundai-typescript/commit/a1434525115b0f92ce3484a937be89a2041fa2fc))
+* **internal:** codegen related update ([e50a9ea](https://github.com/abundai-org/abundai-typescript/commit/e50a9eaca4c335f9c4f3952a45abf82038a1bb83))
+* **internal:** codegen related update ([43ad198](https://github.com/abundai-org/abundai-typescript/commit/43ad1982e41fa76fd85e15b011ace8641cb22df8))
+* **internal:** codegen related update ([4344080](https://github.com/abundai-org/abundai-typescript/commit/434408090c5b13b0c372cc4ab09ba6b1d9a75c21))
+* **internal:** codegen related update ([d1767f2](https://github.com/abundai-org/abundai-typescript/commit/d1767f28893560291f65b1e848f71bd8188b048a))
+* **internal:** codegen related update ([146819f](https://github.com/abundai-org/abundai-typescript/commit/146819fe6e77933dadbdaabd47b1611913b9b79c))
+* **internal:** codegen related update ([9fdd131](https://github.com/abundai-org/abundai-typescript/commit/9fdd1313998ed5480d27062bbdd27588eeb9630f))
+* **internal:** codegen related update ([b2d4849](https://github.com/abundai-org/abundai-typescript/commit/b2d4849008878a82b4a1e57ca79631d98b9c2e6e))
+* **internal:** codegen related update ([64d067b](https://github.com/abundai-org/abundai-typescript/commit/64d067bd9cc871d1310286080fe38b68133c050f))
+* **internal:** fix MCP server import ordering ([1c3719b](https://github.com/abundai-org/abundai-typescript/commit/1c3719b99c11053269c0bccb04e666b3df3cf829))
+* **internal:** fix MCP server TS errors that occur with required client options ([bc4834b](https://github.com/abundai-org/abundai-typescript/commit/bc4834bc84fe73db8c073f4aa5460aea53bbb9f0))
+* **internal:** improve local docs search for MCP servers ([9ffeecf](https://github.com/abundai-org/abundai-typescript/commit/9ffeecf8dd9ad4f5595179c86bb3489225cbb1a1))
+* **internal:** improve local docs search for MCP servers ([3b3b1a5](https://github.com/abundai-org/abundai-typescript/commit/3b3b1a5b5bf73ab3b18244497b3761c740ae9e67))
+* **internal:** make generated MCP servers compatible with Cloudflare worker environments ([4fbb746](https://github.com/abundai-org/abundai-typescript/commit/4fbb7462d32ea7b93557dc3f6dc854faaddc223c))
+* **internal:** more robust bootstrap script ([bcd1a79](https://github.com/abundai-org/abundai-typescript/commit/bcd1a79718d76db758f27fc6abac1eab07cd16b0))
+* **internal:** show error causes in MCP servers when running in local mode ([c71eb8a](https://github.com/abundai-org/abundai-typescript/commit/c71eb8a809647183fc8319679e0f4b4235cc2416))
+* **internal:** support custom-instructions-path flag in MCP servers ([5dd0c5f](https://github.com/abundai-org/abundai-typescript/commit/5dd0c5fd3d2f4ae137eb90e97650548ec5ba6cdc))
+* **internal:** support local docs search in MCP servers ([7544b92](https://github.com/abundai-org/abundai-typescript/commit/7544b92c7287a2e7f8542e5398090a7e50ba99bf))
+* **internal:** support type annotations when running MCP in local execution mode ([d8a58ac](https://github.com/abundai-org/abundai-typescript/commit/d8a58acbe6778481de7ddfc9f5941c25f01cfbc2))
+* **internal:** support x-stainless-mcp-client-envs header in MCP servers ([ff78d28](https://github.com/abundai-org/abundai-typescript/commit/ff78d2819607d3fa3f1805b50e70aef32cc01377))
+* **internal:** support x-stainless-mcp-client-permissions headers in MCP servers ([0b2893c](https://github.com/abundai-org/abundai-typescript/commit/0b2893cbfee10c1bd7ef666b463fb3b58f2731f8))
+* **internal:** tweak CI branches ([ba42b90](https://github.com/abundai-org/abundai-typescript/commit/ba42b907ee419c2c479d9f803b5e640bee60bbe0))
+* **internal:** update dependencies to address dependabot vulnerabilities ([e7d119b](https://github.com/abundai-org/abundai-typescript/commit/e7d119b5a42e49e46637a298a1760b53db8f3d63))
+* **internal:** update gitignore ([1e61d88](https://github.com/abundai-org/abundai-typescript/commit/1e61d8804a63f1c5e3cf1bf070d0cd851f21eb6d))
+* **internal:** update lock file ([e1e8e32](https://github.com/abundai-org/abundai-typescript/commit/e1e8e323faf6f2995be0daa723fe1a356f8c6a6e))
+* **internal:** update lockfile ([c2e7613](https://github.com/abundai-org/abundai-typescript/commit/c2e76137e019f4bfa9504d71236960731db3641b))
+* **mcp-server:** add support for session id, forward client info ([7b4344d](https://github.com/abundai-org/abundai-typescript/commit/7b4344d4ce5bddba7f6c34b458d7fd7141776d21))
+* **mcp-server:** improve instructions ([a63d6e9](https://github.com/abundai-org/abundai-typescript/commit/a63d6e910733db9e925200555b65c38451afc800))
+* **mcp-server:** increase local docs search result count from 5 to 10 ([912bd63](https://github.com/abundai-org/abundai-typescript/commit/912bd63415db7da33d5ab24e047d48e284dd4339))
+* **mcp-server:** log client info ([f296b5d](https://github.com/abundai-org/abundai-typescript/commit/f296b5db8a53b197433e1f1ce115da9ab4fb53a3))
+* restructure docs search code ([5f62452](https://github.com/abundai-org/abundai-typescript/commit/5f62452fe8bb042de89aae204fc57617cc1d13b3))
+
 ## 0.2.2 (2026-03-08)
 
 Full Changelog: [v0.2.1...v0.2.2](https://github.com/abundai-org/abundai-typescript/compare/v0.2.1...v0.2.2)
