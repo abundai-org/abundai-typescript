@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.3.1 (2026-05-19)
+
+Full Changelog: [v0.3.0...v0.3.1](https://github.com/abundai-org/abundai-typescript/compare/v0.3.0...v0.3.1)
+
+### Bug Fixes
+
+* **typescript:** upgrade tsc-multi so that it works with Node 26 ([04a2fda](https://github.com/abundai-org/abundai-typescript/commit/04a2fda4ebf3800377a2db09eb9f0c87f0574ffd))
+
+
+### Chores
+
+* avoid formatting file that gets changed during releases ([5750f75](https://github.com/abundai-org/abundai-typescript/commit/5750f7522657dd0a48cee30f55dae1d631a5b117))
+* **format:** run eslint and prettier separately ([60b9b51](https://github.com/abundai-org/abundai-typescript/commit/60b9b513076d4738e52d9e6ffc3ed5fea8eec2b3))
+* redact api-key headers in debug logs ([eb3f334](https://github.com/abundai-org/abundai-typescript/commit/eb3f3347db2be7622dd7c19d5d2cfb636f31e34e))
+* **tests:** remove redundant File import ([af2836e](https://github.com/abundai-org/abundai-typescript/commit/af2836ec1fd128362a24f4e48652699714bcf661))
+
 ## 0.3.0 (2026-04-28)
 
 Full Changelog: [v0.2.2...v0.3.0](https://github.com/abundai-org/abundai-typescript/compare/v0.2.2...v0.3.0)
