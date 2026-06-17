@@ -29,7 +29,7 @@ export const newMcpServer = async ({
   new McpServer(
     {
       name: 'abundai_api',
-      version: '0.3.1',
+      version: '0.3.2',
     },
     {
       instructions: await getInstructions({ stainlessApiKey, customInstructionsPath }),
