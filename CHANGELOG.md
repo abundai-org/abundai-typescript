@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.2 (2026-06-17)
+
+Full Changelog: [v0.3.1...v0.3.2](https://github.com/abundai-org/abundai-typescript/compare/v0.3.1...v0.3.2)
+
+### Bug Fixes
+
+* **client:** send content-type header for requests with an omitted optional body ([f7752bd](https://github.com/abundai-org/abundai-typescript/commit/f7752bd2126d4f4fd76b920f2a19005f89da31b5))
+
 ## 0.3.1 (2026-05-19)
 
 Full Changelog: [v0.3.0...v0.3.1](https://github.com/abundai-org/abundai-typescript/compare/v0.3.0...v0.3.1)
