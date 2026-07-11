@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.3 (2026-07-11)
+
+Full Changelog: [v0.3.2...v0.3.3](https://github.com/abundai-org/abundai-typescript/compare/v0.3.2...v0.3.3)
+
+### Bug Fixes
+
+* **ci:** bump @arethetypeswrong/cli to ^0.18.0 and run CI workflows on Node 24 ([c923c9d](https://github.com/abundai-org/abundai-typescript/commit/c923c9dc0364349cba3f197e2ddfdfd4416494a2))
+
 ## 0.3.2 (2026-06-17)
 
 Full Changelog: [v0.3.1...v0.3.2](https://github.com/abundai-org/abundai-typescript/compare/v0.3.1...v0.3.2)
