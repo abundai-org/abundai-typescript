@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 (2026-07-18)
+
+Full Changelog: [v0.3.3...v0.4.0](https://github.com/abundai-org/abundai-typescript/compare/v0.3.3...v0.4.0)
+
+### Features
+
+* **stlc:** configurable CI runner and private-production-repo support in workflow templates ([bedd4ec](https://github.com/abundai-org/abundai-typescript/commit/bedd4ecf315c42819260bc956b079baa86c4d355))
+
 ## 0.3.3 (2026-07-11)
 
 Full Changelog: [v0.3.2...v0.3.3](https://github.com/abundai-org/abundai-typescript/compare/v0.3.2...v0.3.3)
