@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.1 (2026-09-01)
+
+Full Changelog: [v0.4.0...v0.4.1](https://github.com/abundai-org/abundai-typescript/compare/v0.4.0...v0.4.1)
+
+### Documentation
+
+* **mcp:** document code execution modes and the local code runner ([b1d41b0](https://github.com/abundai-org/abundai-typescript/commit/b1d41b0a9df187fe77bfda078718ba49fd51390b))
+
 ## 0.4.0 (2026-07-18)
 
 Full Changelog: [v0.3.3...v0.4.0](https://github.com/abundai-org/abundai-typescript/compare/v0.3.3...v0.4.0)
